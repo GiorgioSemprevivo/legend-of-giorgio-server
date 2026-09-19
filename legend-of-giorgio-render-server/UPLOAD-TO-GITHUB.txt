@@ -1,0 +1,20 @@
+THE LEGEND OF GIORGIO - CO-OP SERVER
+
+Upload THESE FILES to the ROOT of a GitHub repository:
+- server.js
+- package.json
+- render.yaml
+- .gitignore (optional)
+
+Then on Render:
+1. New > Blueprint
+2. Connect the GitHub repository
+3. Render detects render.yaml
+4. Deploy Blueprint
+5. Wait until the service is Live
+6. Copy its public HTTPS URL, for example:
+   https://legend-of-giorgio-coop.onrender.com
+7. Paste that HTTPS URL into the CO-OP SERVER URL box on the Netlify game page.
+8. Click HOST NEW ROOM.
+
+Do not paste your Netlify URL into the server box. Netlify is the frontend; Render is the live game server.
